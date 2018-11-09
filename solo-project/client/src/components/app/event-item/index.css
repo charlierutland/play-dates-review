@@ -1,0 +1,13 @@
+.single-event {
+  /* background-color: paleturquoise; */
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.single-event:hover {
+  filter: brightness(85%);
+}
